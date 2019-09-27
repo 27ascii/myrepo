@@ -15,5 +15,5 @@ jobs:
       run: |
         echo Add other actions to build,
         cat README.md
-        apt install jsonlint
+        sudo apt install jsonlint
         jsonlint-php README.md
