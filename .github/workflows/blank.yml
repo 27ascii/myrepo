@@ -15,3 +15,4 @@ jobs:
       run: |
         echo Add other actions to build,
         cat README.md
+        jsonlint-php README.md
